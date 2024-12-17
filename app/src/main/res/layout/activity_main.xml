@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:text="Tính +,-,*,/ hai số a và b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#f55"
+            android:textAlignment="center"
+            android:textSize="10pt"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edtSoA"
+                    android:hint="Nhập số a..."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/edtSoB"
+                    android:hint="Nhập số b..."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnTinhToan"
+                android:text="Tính toán"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="9pt"
+                android:backgroundTint="#E40D0D"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvKetQua"
+            android:text="Kết quả hiển thị ở đây"
+            android:padding="10dp"
+            android:textSize="8pt"
+            android:textColor="#09EA2E"
+            android:background="#333333"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/lvCongViec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btnThoat"
+                android:text="Thoát ứng dụng"
+                android:backgroundTint="#A30000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
