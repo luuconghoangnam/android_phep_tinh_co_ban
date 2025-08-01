@@ -1,7 +1,7 @@
-# App2 - Ứng Dụng Máy Tính Cơ Bản
+# Ứng Dụng Máy Tính Cơ Bản
 
 ## 📱 Mô tả
-App2 là một ứng dụng Android đơn giản thực hiện các phép tính cơ bản (cộng, trừ, nhân, chia) với giao diện thân thiện và tính năng quản lý danh sách bài tập.
+Một ứng dụng Android đơn giản thực hiện các phép tính cơ bản (cộng, trừ, nhân, chia) với giao diện thân thiện và tính năng quản lý danh sách bài tập.
 
 ## ✨ Tính năng chính
 - **Tính toán cơ bản**: Thực hiện phép cộng, trừ, nhân, chia
