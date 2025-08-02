@@ -6,7 +6,6 @@
 App2 là một ứng dụng Android đơn giản thực hiện các phép tính cơ bản (cộng, trừ, nhân, chia) với giao diện thân thiện và tính năng quản lý danh sách bài tập.
 =======
 Một ứng dụng Android đơn giản thực hiện các phép tính cơ bản (cộng, trừ, nhân, chia) với giao diện thân thiện và tính năng quản lý danh sách bài tập.
->>>>>>> a7e82cc70ace49532323ee97742202bbb4739a91
 
 ## ✨ Tính năng chính
 
